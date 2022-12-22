@@ -1,0 +1,139 @@
+/* RESET AND GENERAL STYLES */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+h2 {
+	color: inherit;
+	text-align: center;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background: #fefefe;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER SECTION */
+
+.header {
+	font-size: 3rem;
+	height: 45vh;
+}
+
+.header__container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+.header__h2 {
+	margin-bottom: 3rem;
+}
+
+.header button {
+	cursor: pointer;
+	font-size: 1.5rem;
+	font-weight: bold;
+	max-width: 30rem;
+	padding: 1rem 2rem;
+}
+
+/* FOOTER SECTION */
+.header,
+.footer {
+	background-color: #0a0a0a;
+	color: #fefefe;
+	padding: 2rem;
+}
+
+.footer {
+	padding: 1rem;
+}
+/* MAIN SECTION */
+.main {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	min-height: 55vh;
+}
+
+.main__text {
+	color: gray;
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+.quote_container {
+	box-shadow: 0 1px 3px gray;
+	padding: 3rem 4rem;
+}
+
+.quote_container blockquote {
+	font-style: italic;
+	font-size: 1.9rem;
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+.quote_container span {
+	display: block;
+	font-size: 1.3rem;
+	opacity: 0.8;
+	text-align: right;
+}
+
+/* UTILITY */
+.hidden {
+	display: none;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 459px) {
+	.header {
+		height: 75vh;
+	}
+
+	.header__h2 {
+		font-size: 3.5rem;
+	}
+
+	.header button {
+		font-size: 1.3rem;
+	}
+
+	.main {
+		height: 50vh;
+		padding: 1rem;
+	}
+
+	.quote_container {
+		padding: 1rem;
+	}
+
+	.quote_container blockquote {
+		font-size: 1.3rem;
+	}
+
+	.quote_container span {
+		font-size: 1.1rem;
+	}
+
+	.footer__h2 {
+		font-size: 1rem;
+	}
+}
