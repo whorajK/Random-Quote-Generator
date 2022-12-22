@@ -4,6 +4,9 @@ In this project, this generator displays random famous quotes each time a button
 
 "The only thing we have to fear is fear itself." — Franklin Delano Roosevelt.
 
+**Deployment**
+https://whorajk.github.io/Random-Quote-Generator/
+
 **Technologies🚀**
 
 - Html
